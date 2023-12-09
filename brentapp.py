@@ -51,7 +51,8 @@ def forecast(HORIZON):
 st.text(" Created by:P317G1:07/12/2023 \n Powered by: GARCH + ARIMA")
 
 st.title("BrentPredict")
-st.write(f'<span style="font-family: San Seriff;font-size:16px;color:Gold;">Forecast Brent Crude Price.. :</span>', unsafe_allow_html=True)
+st.text("Caution: App to Forecast Brent Crude Price ..")
+st.write(f'<span style="font-family: San Seriff;font-size:18px;color:Red;">Caution: This is not a financial advice ! :</span>', unsafe_allow_html=True)
 
 
 st.text("Caution: This is not a financial advice !")
