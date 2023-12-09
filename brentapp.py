@@ -54,7 +54,7 @@ st.title("BrentPredict")
 st.text("App to Forecast Brent Crude Price ..")
 st.write(f'<span style="font-family: San Seriff;font-size:18px;color:Red;">Caution: This is not a financial advice ! :</span>', unsafe_allow_html=True)
 
-user_input = st.number_input("Enter HORIZON (Forecasting periods)",0)
+user_input = st.number_input("Enter HORIZON (Forecasting steps)",0)
 
 HORIZON = int(user_input)
 
