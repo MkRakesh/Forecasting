@@ -62,7 +62,7 @@ if HORIZON:
      
 	brentForecast = forecast(HORIZON)
 	brentForecast = brentForecast.reshape(-1)
-	st.write(f'<span style="font-family: San Seriff;font-size:18px;color:Gold;">Caution: HOVER OVER THE CHART TO SEE PRICES :</span>', unsafe_allow_html=True)
+	st.write(f'<span style="font-family: San Seriff;font-size:18px;color:Gold;">HOVER OVER THE CHART TO SEE PRICES :</span>', unsafe_allow_html=True)
 
 	data = pd.DataFrame({'x': np.arange(1, len(brentForecast) + 1), 'y': brentForecast})
 
