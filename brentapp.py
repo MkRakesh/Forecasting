@@ -73,5 +73,6 @@ if HORIZON:
               title=f'Brent Crude Price Forecast for {HORIZON} days')
 
 # Display the Plotly Express figure using Streamlit
+	
 	st.plotly_chart(fig)
 
